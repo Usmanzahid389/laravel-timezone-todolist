@@ -35,8 +35,8 @@ class TodolistController extends Controller
             { 
                
                 if(!empty($timezone))
-                {  $date =  Carbon::createFromTimestamp($row->deadline],$timezone)->toDateTimeString(); }
-                else { $date =  Carbon::createFromTimestamp($row->deadline])->toDateTimeString(); }
+                {  $date =  Carbon::createFromTimestamp($row->deadline,$timezone)->toDateTimeString(); }
+                else { $date =  Carbon::createFromTimestamp($row->deadline)->toDateTimeString(); }
               //converting time according to timezone
              $row->deadline =   $date;
                
