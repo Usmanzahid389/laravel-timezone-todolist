@@ -1,0 +1,142 @@
+.card-counter{
+    box-shadow: 2px 2px 10px #DADADA;
+    margin: 5px;
+    padding: 20px 10px;
+    background-color: #fff;
+    height: 100px;
+    border-radius: 5px;
+    transition: .3s linear all;
+  }
+
+  .card-counter:hover{
+    box-shadow: 4px 4px 20px #DADADA;
+    transition: .3s linear all;
+  }
+
+  .card-counter.primary{
+    background-color: #007bff;
+    color: #FFF;
+  }
+
+  .card-counter.danger{
+    background-color: #ef5350;
+    color: #FFF;
+  }  
+
+  .card-counter.success{
+    background-color: #66bb6a;
+    color: #FFF;
+  }  
+
+  .card-counter.info{
+    background-color: #26c6da;
+    color: #FFF;
+  }  
+
+  .card-counter i{
+    font-size: 5em;
+    opacity: 0.2;
+  }
+
+  .card-counter .count-numbers{
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    font-size: 32px;
+    display: block;
+  }
+
+  .card-counter .count-name{
+    position: absolute;
+    right: 35px;
+    top: 65px;
+    font-style: italic;
+    text-transform: capitalize;
+    opacity: 0.5;
+    display: block;
+    font-size: 18px;
+  }
+
+     
+#main_icon
+{
+    float:right;
+   padding-right: 65px;
+   padding-top:20px;
+}
+.nfooter{      position: fixed;
+    bottom:11px;
+    margin-left: 459px;
+    background-color:#e3dddc;
+}
+.sub_icon
+{
+    float:right;
+   padding-right: 65px;
+   padding-top:10px;
+}
+.content-header {
+  height: 65px;
+  line-height: 65px;
+}
+
+.content-header h1 {
+  margin: 0;
+  margin-left: 20px;
+  line-height: 65px;
+  display: inline-block;
+}
+ 
+header .main-nav{
+     background-color:#FA8072;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 4000;
+    max-height: 69px;
+}
+header .main-nav-scrolled{
+    background-color: rgba(0,0,0,0.4);
+}
+a.btn.btn-lg.btn-success {
+    line-height: 1.1;margin-top:12px;
+}
+a.btn.btn-lg.btn-info {
+    line-height: 1.1;margin-top:12px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+.navbar-light .navbar-nav .active .nav-link{
+    color: #00e0d0;
+}
+.bgwhite{
+    height:70px;
+    background-color:white;
+     box-shadow: 5px 3px;
+ 
+}
+.smalldiv{
+    background-color:#FA8072;
+    float:left;
+    margin-top:21px;
+ 
+}
+.smalldiv2{
+    background-color:lightgreen;
+    float:left;
+    margin-top:21px;
+    
+}
+.cndtion{
+    margin-top:21px;float:right;
+    
+}
+
+/*for test*/
+body{
+  height: 400px;
+  background-color:#f1f1f1;
+}
+.ds-btn li{ list-style:none; float:right; padding:10px; }
